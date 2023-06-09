@@ -1,0 +1,172 @@
+/* ===========ABOUT SECTION=========== */
+
+.aboutUs{
+    margin-top: 3rem;
+}
+
+.aboutContainer{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 5rem;
+}
+
+.about{
+    background: var(--color-bg1);
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.about:hover{
+    background: var(--color-white);
+    color: black;
+    box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
+    transition: var(--transition);
+}
+
+/* ===========ABOUT SECTION=========== */
+.aboutTeams{
+    background: var(--color-bg1);
+    box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
+}
+
+h2{
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.aboutRight p{
+    text-align: justify;
+    margin-top: -2rem;
+}
+
+.aboutLeft{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.aboutLeft img{
+    width: 20rem;
+}
+
+.teamContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.teamMember{
+    background: var(--color-bg2);
+    padding: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    position: relative;
+    overflow: hidden;
+}
+
+.teamMember:hover .socialsMedia-Member{
+    right: 0;
+}
+
+.teamMember:hover{
+    background-color: white;
+    color: black;
+}
+
+.teamMember i:hover{
+    color: black;
+}
+
+.teamMember-img{
+    margin-left: 2.5rem;
+    filter: saturate(0);
+}
+
+.teamMember-img img{
+    width: 10rem;
+    height: 12rem;
+}
+
+.teamMember:hover .teamMember-img{
+    filter: saturate(1);
+}
+
+.teamMember-info * {
+    text-align: center;
+    margin-top: 1.4rem;
+}
+
+.teamMember-info p{
+    margin-top: -3rem;
+}
+
+.teamMember-info h4{
+    font-weight: bold;
+}
+
+.teamMember:hover h4{
+    color: var(--color-bg1);
+}
+
+.socialsMedia-Member{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -100%;
+    display: flex;
+    flex-direction: column;
+    background: var(--color-primary);
+    border-radius: 1rem 0 0 1rem;
+    transition: var(--transition);
+}
+
+.socialsMedia-Member a{
+    padding: 1rem;
+}
+
+/*TABLET*/
+@media screen and (max-width: 1024px) {
+    .aboutUs{
+        margin-top: 2rem;
+    }
+
+    .aboutContainer{
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+    }
+
+    .aboutLeft{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .teamContainer{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+
+    .teamMember-img{
+        margin-left: 3rem auto;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .teamMember{
+        padding: 0;
+    }
+
+    .teamMember p{
+        margin-bottom: 1.5rem;
+    }
+
+    .teamMember-img{
+        margin-top: 1rem;
+        margin-left: 12%;
+    }
+
+    .aboutContainer{
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+}

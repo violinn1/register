@@ -1,0 +1,169 @@
+.contactContainer{
+    background: var(--color-bg1);
+    padding: 4rem;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 4rem;
+    height: 30rem;
+    margin: 7rem auto;
+    border-radius: 1rem;
+}
+
+.contactAside{
+    background: var(--color-primary);
+    padding: 3rem;
+    border-radius: 1rem;
+    position: relative;
+    bottom: 10rem;
+}
+
+.aside-img{
+    width: 12rem;
+    margin-bottom: 1rem;
+}
+
+.contactAside h2{
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+img{
+    width: 10rem;
+}
+
+.contactAside p{
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+}
+
+.contactDetails li{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.socialMedia-contact{
+    display: flex;
+    gap: 0.8rem;
+    margin-top: 3rem;
+}
+
+.socialMedia-contact a{
+    background: var(--color-bg2);
+    padding: 0.5rem;
+    border-radius: 50%;
+    font-size: 0.9rem;
+    transition: var(--transition);
+}
+
+.socialMedia-contact a:hover{
+    background: white;
+    color: black;
+}
+
+.questionForm{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-right: 4rem;
+}
+
+.formName{
+    display: flex;
+    gap: 1.2rem;
+}
+
+.questionForm input[type="text"]{
+    width: 50%;
+}
+
+form input{
+    height: 3rem;
+}
+
+input, textarea{
+    width: 100%;
+    background: var(--color-bg);
+    color: var(--color-white);
+}
+
+.questionForm .btn{
+    width: max-content;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    background:rgb(193, 148, 235);
+}
+
+.questionForm .btn:hover{
+    background: var(--color-white);
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+input[type="radio"]{
+    width: 20px;
+    display: inline-block;
+}
+
+input[type="text"], input[type="email"]{
+    border-radius: 10px;
+}
+@media screen and (max-width: 1024px) {
+    .contactContainer{
+        gap: 1.5rem;
+        margin-top: 3rem;
+        height: auto;
+        padding: 1.5rem;
+    }
+
+    .socialMedia-contact{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .contactDetails li{
+        flex-direction: column;
+    }
+
+    .contactAside{
+        width: auto;
+        padding: 1.5rem;
+        bottom: 0;
+    }
+
+    .questionForm{
+        align-self: center;
+        margin-right: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contactContainer{
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        margin-top: 0;
+    }
+
+    .socialMedia-contact{
+        display: flex;
+    }
+
+    .questionForm{
+        margin: 0 1.5rem 3rem;
+    }
+
+    .contactDetails li{
+        flex-direction: row;
+    }
+
+    .fromName{
+        flex-direction: column;
+    }
+
+    .fromName input[type="text"]{
+        width: 100%;
+    }
+}
