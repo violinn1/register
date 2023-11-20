@@ -1,0 +1,67 @@
+{
+    "result": [
+    {
+      "no": "1",
+      "name": "Angelia",
+      "birth_date": "2004-04-29",
+      "Position": "Student",
+      "International": "Indonesia",
+      "University": "UPNVJ",
+      "Poster": "https://i.postimg.cc/90j1WHJh/Ramsdale.png"
+    },
+    {
+      "no": "2",
+      "name": "Zhongli",
+      "birth_date": "12-31",
+      "Position": "Consultant of the Wangsheng Funeral Parlor",
+      "Region": "Liyue",
+      "Vision": "Geo",
+      "Poster": "https://www.ligagame.tv/templates/yootheme/cache/genshin-impact-zhongli_10461-ccede73b.webp"
+    },
+    {
+      "no": "3",
+      "name": "Alhaitam",
+      "birth_date": "02-11",
+      "Position": "Member of the Haravatat of the Sumeru Akademiya",
+      "Region": "Sumeru",
+      "Vision": "Dendro",
+      "Poster": "https://genshin.global/wp-content/uploads/2023/02/alhaitham-birthday-art-genshinimpact-768x768.jpg"
+    },
+    {
+      "no": "4",
+      "name": "Neuvillette",
+      "birth_date": "12-18",
+      "Position": "The Iudex of Fontaine",
+      "Region": "Fontaine",
+      "Vision": "-",
+      "Poster": "https://staticg.sportskeeda.com/editor/2023/07/363e8-16908019645552-1920.jpg"
+    },
+    {
+      "no": "5",
+      "name": "Wriothesley",
+      "birth_date": "11-23",
+      "Position": "Administrator of Fortress of Meropide",
+      "Region": "Fontaine",
+      "Vision": "Cryo",
+      "Poster": "https://dotesports.com/wp-content/uploads/2023/10/genshin-impact-wriothesley.jpg?resize=768,432"
+    },
+    {
+      "no": "7",
+      "name": "Bukayo Saka",
+      "birth_date": "2001-09-05",
+      "Position": "FORWARDS",
+      "International": "England",
+      "Team": "Arsenal",
+      "Poster": "https://i.postimg.cc/brkytkxn/Saka.jpg"
+    },
+    {
+      "no": "9",
+      "name": "Gabriel Jesus",
+      "birth_date": "1997-04-03",
+      "Position": "FORWARDS",
+      "International": "Brazil",
+      "Team": "Arsenal",
+      "Poster": "https://i.postimg.cc/d31RQQrg/Jesus.jpg"
+    }
+   ]
+  }
